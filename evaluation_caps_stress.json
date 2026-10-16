@@ -1,0 +1,760 @@
+{
+  "budget_caps": {
+    "20": {
+      "seed": 20261036,
+      "trials_per_family": 1,
+      "budget": 20,
+      "oracle_misfire_probability": 0.04,
+      "readout_flip_probability": 0.02,
+      "accuracy": 0.625,
+      "per_family": {
+        "constant": {
+          "accuracy": 1.0,
+          "average_queries": 16.0
+        },
+        "balanced": {
+          "accuracy": 1.0,
+          "average_queries": 16.0
+        },
+        "linear": {
+          "accuracy": 1.0,
+          "average_queries": 16.0
+        },
+        "grover": {
+          "accuracy": 0.0,
+          "average_queries": 16.0
+        },
+        "randfun": {
+          "accuracy": 1.0,
+          "average_queries": 16.0
+        },
+        "simon": {
+          "accuracy": 0.0,
+          "average_queries": 20.0
+        },
+        "simon2": {
+          "accuracy": 1.0,
+          "average_queries": 20.0
+        },
+        "perm": {
+          "accuracy": 0.0,
+          "average_queries": 20.0
+        }
+      },
+      "confusion": {
+        "constant": {
+          "constant": 1
+        },
+        "balanced": {
+          "balanced": 1
+        },
+        "linear": {
+          "linear": 1
+        },
+        "grover": {
+          "constant": 1
+        },
+        "randfun": {
+          "randfun": 1
+        },
+        "simon": {
+          "simon2": 1
+        },
+        "simon2": {
+          "simon2": 1
+        },
+        "perm": {
+          "simon2": 1
+        }
+      },
+      "results": [
+        {
+          "family": "constant",
+          "reported": "constant",
+          "secret_correct": true,
+          "correct": true,
+          "queries": 16
+        },
+        {
+          "family": "balanced",
+          "reported": "balanced",
+          "secret_correct": true,
+          "correct": true,
+          "queries": 16
+        },
+        {
+          "family": "linear",
+          "reported": "linear",
+          "secret_correct": true,
+          "correct": true,
+          "queries": 16
+        },
+        {
+          "family": "grover",
+          "reported": "constant",
+          "secret_correct": false,
+          "correct": false,
+          "queries": 16
+        },
+        {
+          "family": "randfun",
+          "reported": "randfun",
+          "secret_correct": true,
+          "correct": true,
+          "queries": 16
+        },
+        {
+          "family": "simon",
+          "reported": "simon2",
+          "secret_correct": false,
+          "correct": false,
+          "queries": 20
+        },
+        {
+          "family": "simon2",
+          "reported": "simon2",
+          "secret_correct": true,
+          "correct": true,
+          "queries": 20
+        },
+        {
+          "family": "perm",
+          "reported": "simon2",
+          "secret_correct": false,
+          "correct": false,
+          "queries": 20
+        }
+      ]
+    },
+    "30": {
+      "seed": 20261046,
+      "trials_per_family": 1,
+      "budget": 30,
+      "oracle_misfire_probability": 0.04,
+      "readout_flip_probability": 0.02,
+      "accuracy": 0.875,
+      "per_family": {
+        "constant": {
+          "accuracy": 1.0,
+          "average_queries": 16.0
+        },
+        "balanced": {
+          "accuracy": 1.0,
+          "average_queries": 16.0
+        },
+        "linear": {
+          "accuracy": 1.0,
+          "average_queries": 16.0
+        },
+        "grover": {
+          "accuracy": 0.0,
+          "average_queries": 16.0
+        },
+        "randfun": {
+          "accuracy": 1.0,
+          "average_queries": 16.0
+        },
+        "simon": {
+          "accuracy": 1.0,
+          "average_queries": 30.0
+        },
+        "simon2": {
+          "accuracy": 1.0,
+          "average_queries": 30.0
+        },
+        "perm": {
+          "accuracy": 1.0,
+          "average_queries": 30.0
+        }
+      },
+      "confusion": {
+        "constant": {
+          "constant": 1
+        },
+        "balanced": {
+          "balanced": 1
+        },
+        "linear": {
+          "linear": 1
+        },
+        "grover": {
+          "constant": 1
+        },
+        "randfun": {
+          "randfun": 1
+        },
+        "simon": {
+          "simon": 1
+        },
+        "simon2": {
+          "simon2": 1
+        },
+        "perm": {
+          "perm": 1
+        }
+      },
+      "results": [
+        {
+          "family": "constant",
+          "reported": "constant",
+          "secret_correct": true,
+          "correct": true,
+          "queries": 16
+        },
+        {
+          "family": "balanced",
+          "reported": "balanced",
+          "secret_correct": true,
+          "correct": true,
+          "queries": 16
+        },
+        {
+          "family": "linear",
+          "reported": "linear",
+          "secret_correct": true,
+          "correct": true,
+          "queries": 16
+        },
+        {
+          "family": "grover",
+          "reported": "constant",
+          "secret_correct": false,
+          "correct": false,
+          "queries": 16
+        },
+        {
+          "family": "randfun",
+          "reported": "randfun",
+          "secret_correct": true,
+          "correct": true,
+          "queries": 16
+        },
+        {
+          "family": "simon",
+          "reported": "simon",
+          "secret_correct": true,
+          "correct": true,
+          "queries": 30
+        },
+        {
+          "family": "simon2",
+          "reported": "simon2",
+          "secret_correct": true,
+          "correct": true,
+          "queries": 30
+        },
+        {
+          "family": "perm",
+          "reported": "perm",
+          "secret_correct": true,
+          "correct": true,
+          "queries": 30
+        }
+      ]
+    },
+    "40": {
+      "seed": 20261056,
+      "trials_per_family": 1,
+      "budget": 40,
+      "oracle_misfire_probability": 0.04,
+      "readout_flip_probability": 0.02,
+      "accuracy": 0.75,
+      "per_family": {
+        "constant": {
+          "accuracy": 0.0,
+          "average_queries": 16.0
+        },
+        "balanced": {
+          "accuracy": 1.0,
+          "average_queries": 16.0
+        },
+        "linear": {
+          "accuracy": 1.0,
+          "average_queries": 16.0
+        },
+        "grover": {
+          "accuracy": 0.0,
+          "average_queries": 16.0
+        },
+        "randfun": {
+          "accuracy": 1.0,
+          "average_queries": 16.0
+        },
+        "simon": {
+          "accuracy": 1.0,
+          "average_queries": 40.0
+        },
+        "simon2": {
+          "accuracy": 1.0,
+          "average_queries": 40.0
+        },
+        "perm": {
+          "accuracy": 1.0,
+          "average_queries": 40.0
+        }
+      },
+      "confusion": {
+        "constant": {
+          "balanced": 1
+        },
+        "balanced": {
+          "balanced": 1
+        },
+        "linear": {
+          "linear": 1
+        },
+        "grover": {
+          "constant": 1
+        },
+        "randfun": {
+          "randfun": 1
+        },
+        "simon": {
+          "simon": 1
+        },
+        "simon2": {
+          "simon2": 1
+        },
+        "perm": {
+          "perm": 1
+        }
+      },
+      "results": [
+        {
+          "family": "constant",
+          "reported": "balanced",
+          "secret_correct": false,
+          "correct": false,
+          "queries": 16
+        },
+        {
+          "family": "balanced",
+          "reported": "balanced",
+          "secret_correct": true,
+          "correct": true,
+          "queries": 16
+        },
+        {
+          "family": "linear",
+          "reported": "linear",
+          "secret_correct": true,
+          "correct": true,
+          "queries": 16
+        },
+        {
+          "family": "grover",
+          "reported": "constant",
+          "secret_correct": false,
+          "correct": false,
+          "queries": 16
+        },
+        {
+          "family": "randfun",
+          "reported": "randfun",
+          "secret_correct": true,
+          "correct": true,
+          "queries": 16
+        },
+        {
+          "family": "simon",
+          "reported": "simon",
+          "secret_correct": true,
+          "correct": true,
+          "queries": 40
+        },
+        {
+          "family": "simon2",
+          "reported": "simon2",
+          "secret_correct": true,
+          "correct": true,
+          "queries": 40
+        },
+        {
+          "family": "perm",
+          "reported": "perm",
+          "secret_correct": true,
+          "correct": true,
+          "queries": 40
+        }
+      ]
+    },
+    "50": {
+      "seed": 20261066,
+      "trials_per_family": 1,
+      "budget": 50,
+      "oracle_misfire_probability": 0.04,
+      "readout_flip_probability": 0.02,
+      "accuracy": 0.75,
+      "per_family": {
+        "constant": {
+          "accuracy": 1.0,
+          "average_queries": 16.0
+        },
+        "balanced": {
+          "accuracy": 1.0,
+          "average_queries": 16.0
+        },
+        "linear": {
+          "accuracy": 1.0,
+          "average_queries": 16.0
+        },
+        "grover": {
+          "accuracy": 0.0,
+          "average_queries": 16.0
+        },
+        "randfun": {
+          "accuracy": 0.0,
+          "average_queries": 16.0
+        },
+        "simon": {
+          "accuracy": 1.0,
+          "average_queries": 50.0
+        },
+        "simon2": {
+          "accuracy": 1.0,
+          "average_queries": 50.0
+        },
+        "perm": {
+          "accuracy": 1.0,
+          "average_queries": 50.0
+        }
+      },
+      "confusion": {
+        "constant": {
+          "constant": 1
+        },
+        "balanced": {
+          "balanced": 1
+        },
+        "linear": {
+          "linear": 1
+        },
+        "grover": {
+          "constant": 1
+        },
+        "randfun": {
+          "balanced": 1
+        },
+        "simon": {
+          "simon": 1
+        },
+        "simon2": {
+          "simon2": 1
+        },
+        "perm": {
+          "perm": 1
+        }
+      },
+      "results": [
+        {
+          "family": "constant",
+          "reported": "constant",
+          "secret_correct": true,
+          "correct": true,
+          "queries": 16
+        },
+        {
+          "family": "balanced",
+          "reported": "balanced",
+          "secret_correct": true,
+          "correct": true,
+          "queries": 16
+        },
+        {
+          "family": "linear",
+          "reported": "linear",
+          "secret_correct": true,
+          "correct": true,
+          "queries": 16
+        },
+        {
+          "family": "grover",
+          "reported": "constant",
+          "secret_correct": false,
+          "correct": false,
+          "queries": 16
+        },
+        {
+          "family": "randfun",
+          "reported": "balanced",
+          "secret_correct": true,
+          "correct": false,
+          "queries": 16
+        },
+        {
+          "family": "simon",
+          "reported": "simon",
+          "secret_correct": true,
+          "correct": true,
+          "queries": 50
+        },
+        {
+          "family": "simon2",
+          "reported": "simon2",
+          "secret_correct": true,
+          "correct": true,
+          "queries": 50
+        },
+        {
+          "family": "perm",
+          "reported": "perm",
+          "secret_correct": true,
+          "correct": true,
+          "queries": 50
+        }
+      ]
+    },
+    "60": {
+      "seed": 20261076,
+      "trials_per_family": 1,
+      "budget": 60,
+      "oracle_misfire_probability": 0.04,
+      "readout_flip_probability": 0.02,
+      "accuracy": 0.75,
+      "per_family": {
+        "constant": {
+          "accuracy": 0.0,
+          "average_queries": 56.0
+        },
+        "balanced": {
+          "accuracy": 1.0,
+          "average_queries": 16.0
+        },
+        "linear": {
+          "accuracy": 1.0,
+          "average_queries": 16.0
+        },
+        "grover": {
+          "accuracy": 1.0,
+          "average_queries": 56.0
+        },
+        "randfun": {
+          "accuracy": 0.0,
+          "average_queries": 16.0
+        },
+        "simon": {
+          "accuracy": 1.0,
+          "average_queries": 50.0
+        },
+        "simon2": {
+          "accuracy": 1.0,
+          "average_queries": 50.0
+        },
+        "perm": {
+          "accuracy": 1.0,
+          "average_queries": 50.0
+        }
+      },
+      "confusion": {
+        "constant": {
+          "balanced": 1
+        },
+        "balanced": {
+          "balanced": 1
+        },
+        "linear": {
+          "linear": 1
+        },
+        "grover": {
+          "grover": 1
+        },
+        "randfun": {
+          "balanced": 1
+        },
+        "simon": {
+          "simon": 1
+        },
+        "simon2": {
+          "simon2": 1
+        },
+        "perm": {
+          "perm": 1
+        }
+      },
+      "results": [
+        {
+          "family": "constant",
+          "reported": "balanced",
+          "secret_correct": false,
+          "correct": false,
+          "queries": 56
+        },
+        {
+          "family": "balanced",
+          "reported": "balanced",
+          "secret_correct": true,
+          "correct": true,
+          "queries": 16
+        },
+        {
+          "family": "linear",
+          "reported": "linear",
+          "secret_correct": true,
+          "correct": true,
+          "queries": 16
+        },
+        {
+          "family": "grover",
+          "reported": "grover",
+          "secret_correct": true,
+          "correct": true,
+          "queries": 56
+        },
+        {
+          "family": "randfun",
+          "reported": "balanced",
+          "secret_correct": true,
+          "correct": false,
+          "queries": 16
+        },
+        {
+          "family": "simon",
+          "reported": "simon",
+          "secret_correct": true,
+          "correct": true,
+          "queries": 50
+        },
+        {
+          "family": "simon2",
+          "reported": "simon2",
+          "secret_correct": true,
+          "correct": true,
+          "queries": 50
+        },
+        {
+          "family": "perm",
+          "reported": "perm",
+          "secret_correct": true,
+          "correct": true,
+          "queries": 50
+        }
+      ]
+    }
+  },
+  "stress": {
+    "seed": 20262016,
+    "trials_per_family": 1,
+    "budget": 60,
+    "oracle_misfire_probability": 0.08,
+    "readout_flip_probability": 0.04,
+    "accuracy": 0.875,
+    "per_family": {
+      "constant": {
+        "accuracy": 1.0,
+        "average_queries": 56.0
+      },
+      "balanced": {
+        "accuracy": 1.0,
+        "average_queries": 16.0
+      },
+      "linear": {
+        "accuracy": 1.0,
+        "average_queries": 16.0
+      },
+      "grover": {
+        "accuracy": 0.0,
+        "average_queries": 16.0
+      },
+      "randfun": {
+        "accuracy": 1.0,
+        "average_queries": 16.0
+      },
+      "simon": {
+        "accuracy": 1.0,
+        "average_queries": 50.0
+      },
+      "simon2": {
+        "accuracy": 1.0,
+        "average_queries": 50.0
+      },
+      "perm": {
+        "accuracy": 1.0,
+        "average_queries": 50.0
+      }
+    },
+    "confusion": {
+      "constant": {
+        "constant": 1
+      },
+      "balanced": {
+        "balanced": 1
+      },
+      "linear": {
+        "linear": 1
+      },
+      "grover": {
+        "randfun": 1
+      },
+      "randfun": {
+        "randfun": 1
+      },
+      "simon": {
+        "simon": 1
+      },
+      "simon2": {
+        "simon2": 1
+      },
+      "perm": {
+        "perm": 1
+      }
+    },
+    "results": [
+      {
+        "family": "constant",
+        "reported": "constant",
+        "secret_correct": true,
+        "correct": true,
+        "queries": 56
+      },
+      {
+        "family": "balanced",
+        "reported": "balanced",
+        "secret_correct": true,
+        "correct": true,
+        "queries": 16
+      },
+      {
+        "family": "linear",
+        "reported": "linear",
+        "secret_correct": true,
+        "correct": true,
+        "queries": 16
+      },
+      {
+        "family": "grover",
+        "reported": "randfun",
+        "secret_correct": false,
+        "correct": false,
+        "queries": 16
+      },
+      {
+        "family": "randfun",
+        "reported": "randfun",
+        "secret_correct": true,
+        "correct": true,
+        "queries": 16
+      },
+      {
+        "family": "simon",
+        "reported": "simon",
+        "secret_correct": true,
+        "correct": true,
+        "queries": 50
+      },
+      {
+        "family": "simon2",
+        "reported": "simon2",
+        "secret_correct": true,
+        "correct": true,
+        "queries": 50
+      },
+      {
+        "family": "perm",
+        "reported": "perm",
+        "secret_correct": true,
+        "correct": true,
+        "queries": 50
+      }
+    ]
+  }
+}

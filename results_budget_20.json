@@ -1,0 +1,634 @@
+{
+  "seed": 20261019,
+  "trials_per_family": 10,
+  "budget": 20,
+  "oracle_misfire_probability": 0.04,
+  "readout_flip_probability": 0.02,
+  "accuracy": 0.675,
+  "per_family": {
+    "constant": {
+      "accuracy": 1.0,
+      "average_queries": 18.4
+    },
+    "balanced": {
+      "accuracy": 0.5,
+      "average_queries": 20.0
+    },
+    "linear": {
+      "accuracy": 1.0,
+      "average_queries": 16.0
+    },
+    "grover": {
+      "accuracy": 0.0,
+      "average_queries": 20.0
+    },
+    "randfun": {
+      "accuracy": 0.7,
+      "average_queries": 20.0
+    },
+    "simon": {
+      "accuracy": 0.4,
+      "average_queries": 20.0
+    },
+    "simon2": {
+      "accuracy": 0.8,
+      "average_queries": 20.0
+    },
+    "perm": {
+      "accuracy": 1.0,
+      "average_queries": 20.0
+    }
+  },
+  "confusion": {
+    "constant": {
+      "constant": 10
+    },
+    "balanced": {
+      "randfun": 5,
+      "balanced": 5
+    },
+    "linear": {
+      "linear": 10
+    },
+    "grover": {
+      "constant": 10
+    },
+    "randfun": {
+      "randfun": 7,
+      "balanced": 3
+    },
+    "simon": {
+      "simon2": 5,
+      "perm": 1,
+      "simon": 4
+    },
+    "simon2": {
+      "simon2": 10
+    },
+    "perm": {
+      "perm": 10
+    }
+  },
+  "results": [
+    {
+      "family": "constant",
+      "reported": "constant",
+      "secret_correct": true,
+      "correct": true,
+      "queries": 20
+    },
+    {
+      "family": "constant",
+      "reported": "constant",
+      "secret_correct": true,
+      "correct": true,
+      "queries": 16
+    },
+    {
+      "family": "constant",
+      "reported": "constant",
+      "secret_correct": true,
+      "correct": true,
+      "queries": 16
+    },
+    {
+      "family": "constant",
+      "reported": "constant",
+      "secret_correct": true,
+      "correct": true,
+      "queries": 20
+    },
+    {
+      "family": "constant",
+      "reported": "constant",
+      "secret_correct": true,
+      "correct": true,
+      "queries": 16
+    },
+    {
+      "family": "constant",
+      "reported": "constant",
+      "secret_correct": true,
+      "correct": true,
+      "queries": 20
+    },
+    {
+      "family": "constant",
+      "reported": "constant",
+      "secret_correct": true,
+      "correct": true,
+      "queries": 16
+    },
+    {
+      "family": "constant",
+      "reported": "constant",
+      "secret_correct": true,
+      "correct": true,
+      "queries": 20
+    },
+    {
+      "family": "constant",
+      "reported": "constant",
+      "secret_correct": true,
+      "correct": true,
+      "queries": 20
+    },
+    {
+      "family": "constant",
+      "reported": "constant",
+      "secret_correct": true,
+      "correct": true,
+      "queries": 20
+    },
+    {
+      "family": "balanced",
+      "reported": "randfun",
+      "secret_correct": true,
+      "correct": false,
+      "queries": 20
+    },
+    {
+      "family": "balanced",
+      "reported": "balanced",
+      "secret_correct": true,
+      "correct": true,
+      "queries": 20
+    },
+    {
+      "family": "balanced",
+      "reported": "randfun",
+      "secret_correct": true,
+      "correct": false,
+      "queries": 20
+    },
+    {
+      "family": "balanced",
+      "reported": "randfun",
+      "secret_correct": true,
+      "correct": false,
+      "queries": 20
+    },
+    {
+      "family": "balanced",
+      "reported": "randfun",
+      "secret_correct": true,
+      "correct": false,
+      "queries": 20
+    },
+    {
+      "family": "balanced",
+      "reported": "randfun",
+      "secret_correct": true,
+      "correct": false,
+      "queries": 20
+    },
+    {
+      "family": "balanced",
+      "reported": "balanced",
+      "secret_correct": true,
+      "correct": true,
+      "queries": 20
+    },
+    {
+      "family": "balanced",
+      "reported": "balanced",
+      "secret_correct": true,
+      "correct": true,
+      "queries": 20
+    },
+    {
+      "family": "balanced",
+      "reported": "balanced",
+      "secret_correct": true,
+      "correct": true,
+      "queries": 20
+    },
+    {
+      "family": "balanced",
+      "reported": "balanced",
+      "secret_correct": true,
+      "correct": true,
+      "queries": 20
+    },
+    {
+      "family": "linear",
+      "reported": "linear",
+      "secret_correct": true,
+      "correct": true,
+      "queries": 16
+    },
+    {
+      "family": "linear",
+      "reported": "linear",
+      "secret_correct": true,
+      "correct": true,
+      "queries": 16
+    },
+    {
+      "family": "linear",
+      "reported": "linear",
+      "secret_correct": true,
+      "correct": true,
+      "queries": 16
+    },
+    {
+      "family": "linear",
+      "reported": "linear",
+      "secret_correct": true,
+      "correct": true,
+      "queries": 16
+    },
+    {
+      "family": "linear",
+      "reported": "linear",
+      "secret_correct": true,
+      "correct": true,
+      "queries": 16
+    },
+    {
+      "family": "linear",
+      "reported": "linear",
+      "secret_correct": true,
+      "correct": true,
+      "queries": 16
+    },
+    {
+      "family": "linear",
+      "reported": "linear",
+      "secret_correct": true,
+      "correct": true,
+      "queries": 16
+    },
+    {
+      "family": "linear",
+      "reported": "linear",
+      "secret_correct": true,
+      "correct": true,
+      "queries": 16
+    },
+    {
+      "family": "linear",
+      "reported": "linear",
+      "secret_correct": true,
+      "correct": true,
+      "queries": 16
+    },
+    {
+      "family": "linear",
+      "reported": "linear",
+      "secret_correct": true,
+      "correct": true,
+      "queries": 16
+    },
+    {
+      "family": "grover",
+      "reported": "constant",
+      "secret_correct": false,
+      "correct": false,
+      "queries": 20
+    },
+    {
+      "family": "grover",
+      "reported": "constant",
+      "secret_correct": false,
+      "correct": false,
+      "queries": 20
+    },
+    {
+      "family": "grover",
+      "reported": "constant",
+      "secret_correct": false,
+      "correct": false,
+      "queries": 20
+    },
+    {
+      "family": "grover",
+      "reported": "constant",
+      "secret_correct": false,
+      "correct": false,
+      "queries": 20
+    },
+    {
+      "family": "grover",
+      "reported": "constant",
+      "secret_correct": false,
+      "correct": false,
+      "queries": 20
+    },
+    {
+      "family": "grover",
+      "reported": "constant",
+      "secret_correct": false,
+      "correct": false,
+      "queries": 20
+    },
+    {
+      "family": "grover",
+      "reported": "constant",
+      "secret_correct": false,
+      "correct": false,
+      "queries": 20
+    },
+    {
+      "family": "grover",
+      "reported": "constant",
+      "secret_correct": false,
+      "correct": false,
+      "queries": 20
+    },
+    {
+      "family": "grover",
+      "reported": "constant",
+      "secret_correct": false,
+      "correct": false,
+      "queries": 20
+    },
+    {
+      "family": "grover",
+      "reported": "constant",
+      "secret_correct": false,
+      "correct": false,
+      "queries": 20
+    },
+    {
+      "family": "randfun",
+      "reported": "randfun",
+      "secret_correct": true,
+      "correct": true,
+      "queries": 20
+    },
+    {
+      "family": "randfun",
+      "reported": "randfun",
+      "secret_correct": true,
+      "correct": true,
+      "queries": 20
+    },
+    {
+      "family": "randfun",
+      "reported": "randfun",
+      "secret_correct": true,
+      "correct": true,
+      "queries": 20
+    },
+    {
+      "family": "randfun",
+      "reported": "balanced",
+      "secret_correct": true,
+      "correct": false,
+      "queries": 20
+    },
+    {
+      "family": "randfun",
+      "reported": "randfun",
+      "secret_correct": true,
+      "correct": true,
+      "queries": 20
+    },
+    {
+      "family": "randfun",
+      "reported": "randfun",
+      "secret_correct": true,
+      "correct": true,
+      "queries": 20
+    },
+    {
+      "family": "randfun",
+      "reported": "balanced",
+      "secret_correct": true,
+      "correct": false,
+      "queries": 20
+    },
+    {
+      "family": "randfun",
+      "reported": "randfun",
+      "secret_correct": true,
+      "correct": true,
+      "queries": 20
+    },
+    {
+      "family": "randfun",
+      "reported": "balanced",
+      "secret_correct": true,
+      "correct": false,
+      "queries": 20
+    },
+    {
+      "family": "randfun",
+      "reported": "randfun",
+      "secret_correct": true,
+      "correct": true,
+      "queries": 20
+    },
+    {
+      "family": "simon",
+      "reported": "simon2",
+      "secret_correct": false,
+      "correct": false,
+      "queries": 20
+    },
+    {
+      "family": "simon",
+      "reported": "simon2",
+      "secret_correct": false,
+      "correct": false,
+      "queries": 20
+    },
+    {
+      "family": "simon",
+      "reported": "simon2",
+      "secret_correct": false,
+      "correct": false,
+      "queries": 20
+    },
+    {
+      "family": "simon",
+      "reported": "perm",
+      "secret_correct": false,
+      "correct": false,
+      "queries": 20
+    },
+    {
+      "family": "simon",
+      "reported": "simon2",
+      "secret_correct": false,
+      "correct": false,
+      "queries": 20
+    },
+    {
+      "family": "simon",
+      "reported": "simon",
+      "secret_correct": true,
+      "correct": true,
+      "queries": 20
+    },
+    {
+      "family": "simon",
+      "reported": "simon",
+      "secret_correct": true,
+      "correct": true,
+      "queries": 20
+    },
+    {
+      "family": "simon",
+      "reported": "simon",
+      "secret_correct": true,
+      "correct": true,
+      "queries": 20
+    },
+    {
+      "family": "simon",
+      "reported": "simon",
+      "secret_correct": true,
+      "correct": true,
+      "queries": 20
+    },
+    {
+      "family": "simon",
+      "reported": "simon2",
+      "secret_correct": false,
+      "correct": false,
+      "queries": 20
+    },
+    {
+      "family": "simon2",
+      "reported": "simon2",
+      "secret_correct": true,
+      "correct": true,
+      "queries": 20
+    },
+    {
+      "family": "simon2",
+      "reported": "simon2",
+      "secret_correct": true,
+      "correct": true,
+      "queries": 20
+    },
+    {
+      "family": "simon2",
+      "reported": "simon2",
+      "secret_correct": true,
+      "correct": true,
+      "queries": 20
+    },
+    {
+      "family": "simon2",
+      "reported": "simon2",
+      "secret_correct": false,
+      "correct": false,
+      "queries": 20
+    },
+    {
+      "family": "simon2",
+      "reported": "simon2",
+      "secret_correct": false,
+      "correct": false,
+      "queries": 20
+    },
+    {
+      "family": "simon2",
+      "reported": "simon2",
+      "secret_correct": true,
+      "correct": true,
+      "queries": 20
+    },
+    {
+      "family": "simon2",
+      "reported": "simon2",
+      "secret_correct": true,
+      "correct": true,
+      "queries": 20
+    },
+    {
+      "family": "simon2",
+      "reported": "simon2",
+      "secret_correct": true,
+      "correct": true,
+      "queries": 20
+    },
+    {
+      "family": "simon2",
+      "reported": "simon2",
+      "secret_correct": true,
+      "correct": true,
+      "queries": 20
+    },
+    {
+      "family": "simon2",
+      "reported": "simon2",
+      "secret_correct": true,
+      "correct": true,
+      "queries": 20
+    },
+    {
+      "family": "perm",
+      "reported": "perm",
+      "secret_correct": true,
+      "correct": true,
+      "queries": 20
+    },
+    {
+      "family": "perm",
+      "reported": "perm",
+      "secret_correct": true,
+      "correct": true,
+      "queries": 20
+    },
+    {
+      "family": "perm",
+      "reported": "perm",
+      "secret_correct": true,
+      "correct": true,
+      "queries": 20
+    },
+    {
+      "family": "perm",
+      "reported": "perm",
+      "secret_correct": true,
+      "correct": true,
+      "queries": 20
+    },
+    {
+      "family": "perm",
+      "reported": "perm",
+      "secret_correct": true,
+      "correct": true,
+      "queries": 20
+    },
+    {
+      "family": "perm",
+      "reported": "perm",
+      "secret_correct": true,
+      "correct": true,
+      "queries": 20
+    },
+    {
+      "family": "perm",
+      "reported": "perm",
+      "secret_correct": true,
+      "correct": true,
+      "queries": 20
+    },
+    {
+      "family": "perm",
+      "reported": "perm",
+      "secret_correct": true,
+      "correct": true,
+      "queries": 20
+    },
+    {
+      "family": "perm",
+      "reported": "perm",
+      "secret_correct": true,
+      "correct": true,
+      "queries": 20
+    },
+    {
+      "family": "perm",
+      "reported": "perm",
+      "secret_correct": true,
+      "correct": true,
+      "queries": 20
+    }
+  ]
+}
